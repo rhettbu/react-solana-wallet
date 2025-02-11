@@ -146,8 +146,7 @@ async function createTransaction({
   transaction: VersionedTransaction
   latestBlockhash: { blockhash: string; lastValidBlockHeight: number }
 }> {
-  // Get the latest blockhash to use in our transaction
-  const latestBlockhash = await connection.getLatestBlockhash()
+  // const latestBlockhash = await connection.getLatestBlockhash()
 
   // Create instructions to send, in this case a simple transfer
   const instructions = [
