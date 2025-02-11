@@ -136,6 +136,7 @@ async function createTransaction({
   destination,
   amount,
   connection,
+  balance
 }: {
   publicKey: PublicKey
   destination: PublicKey
