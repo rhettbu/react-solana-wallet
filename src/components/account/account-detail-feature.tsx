@@ -31,9 +31,9 @@ export default function AccountDetailFeature() {
           </div>
         }
       >
-        <div className="my-4">
+        {/* <div className="my-4">
           <AccountButtons address={address} />
-        </div>
+        </div> */}
       </AppHero>
       <div className="space-y-8">
         <AccountTokens address={address} />
